@@ -6,3 +6,4 @@ cd ..
 cp -r client/build/ server/
 cd server/
 npm install
+npm run start
