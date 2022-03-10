@@ -6,7 +6,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import HomeIcon from '@mui/icons-material/Home.js';
 import CodeIcon from '@mui/icons-material/Code';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
-import HeadphonesIcon from '@mui/icons-material/Headphones';
+import HubIcon from '@mui/icons-material/Hub';
 import { Box, flexbox } from '@mui/system';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -52,8 +52,8 @@ function App ()
             >
               <BottomNavigationAction label="Home" icon={ <HomeIcon /> } />
               <BottomNavigationAction label="Development" icon={ <CodeIcon /> } href="https://github.com/EthanHarsh" />
+              <BottomNavigationAction label="ClientHub" icon={ <HubIcon /> } href="https://secure.ethanharsh.com" />
               <BottomNavigationAction label="Soon" icon={ <LibraryBooksIcon /> } disabled color="disabled" />
-              <BottomNavigationAction label="Soon" icon={ <HeadphonesIcon /> } disabled color="disabled" />
             </BottomNavigation>
           </Paper>
         </main>
